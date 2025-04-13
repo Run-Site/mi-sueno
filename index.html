@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sueño Roticeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="background-block"></div>
+        
+        <div class="content">
+            <div class="logo-block">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </div>
+            
+            <h1 class="name">3544 59-2971</h1>
+            <p class="slogan"><p>Abierto de de 20hs a 1hs - Martes Cerrado</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>
+            
+            <div class="button-grid">
+                <!-- Botón Productos solo mobile -->
+                <a href="https://wa.me/c/+5493544592971" class="btn catalogo">
+                    <img src="images/catalogo-icon.png" alt="Catálogo"> Carta Menu 
+                </a>
+								
+                <!-- Botón Productos Web solo desktop -->
+                <a href="https://wa.me/c/+5493544592971" class="btn productos-web" target="_blank" rel="noopener noreferrer">
+                    <img src="images/catalogo-icon.png" alt="Productos Web"> Carta Menu Web
+                </a>
+				<!-- Botón Productos whatsapp -->
+                <a href="https://wa.me/+5493544592971" class="btn whatsapp" target="_blank" rel="noopener noreferrer">
+                    <img src="images/whatsapp-icon.png" alt="WhatsApp"> WhatsApp
+                </a>				
+				
+				
+				<button class="btn full-width" onclick="toggleCollapse('medios-pago')">
+                    <img src="images/info-icon.png" alt="Medios de pago"> Medios de pago
+                </button>
+                
+                <div class="collapsible-content" id="medios-pago">
+                    <div class="pago-item">
+                        <div class="pago-info">
+                            <span>Alias:</span>
+                            <strong>Pizzeria.misueno</strong>
+                        </div>
+                        <button class="copy-btn" onclick="copyToClipboard('Pizzeria.misueno')">Copiar</button>
+                    </div>
+                    
+                    <div class="pago-item">
+                        <div class="pago-info">
+                            <span>CVU:</span>
+                            <strong>0000003100083210704665</strong>
+                        </div>
+                        <button class="copy-btn" onclick="copyToClipboard('0000003100083210704665')">Copiar</button>
+                    </div>
+                    
+                    <div class="titular">
+                        <strong>Titular:</strong> MARIA BELEN VILLALOBO
+                    </div>
+                </div>
+				
+				
+
+                <!-- Botón Llamar solo mobile -->
+                <a href="tel:+5493544592971" class="btn llamar">
+                    <img src="images/llamar-icon.png" alt="Llamar"> Llamar
+                </a>
+                
+                <button class="btn" onclick="guardarContacto()">
+                    <img src="images/contacto-icon.png" alt="Contacto"> Guardar Contacto
+                </button>
+                
+                <a href="https://maps.app.goo.gl/wYz8c1bpfbo2Bdus9" class="btn maps" target="_blank" rel="noopener noreferrer">
+                    <img src="images/mapa-icon.png" alt="Mapa"> Cómo llegar
+                </a>
+                
+                <button class="btn full-width" onclick="toggleCollapse('sobre-nosotros')">
+                    <img src="images/info-icon.png" alt="Info"> Sobre nosotros
+                </button>
+                
+                <div class="collapsible-content" id="sobre-nosotros">
+                    <p>Mi Sueño Roticería ofrece una experiencia gastronómica única con un menú variado que incluye pizzas, lomos, hamburguesas, sándwich de milanesa y más. Su verdadera especialidad son las empanadas, destacando las árabes por su auténtico sabor..</p>
+                </div>
+
+
+                <a href="https://www.instagram.com/beluvillalobo/" class="btn instagram" target="_blank" rel="noopener noreferrer">
+                    <img src="images/instagram-icon.png" alt="Instagram"> Instagram
+                </a>
+                
+                <a href="https://www.facebook.com/profile.php?id=100091739431084" class="btn facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook-icon.png" alt="Facebook"> Facebook
+                </a>
+                
+                <a href="mailto:villalobomariabelen84@gmail.com" class="btn email">
+                    <img src="images/email-icon.png" alt="Email"> Email
+                </a>
+                
+
+
+                <button class="btn full-width" onclick="toggleCollapse('compartir')">
+                    <img src="images/compartir-icon.png" alt="Compartir"> Compartir
+                </button>
+                
+                <div class="collapsible-content share-section" id="compartir">
+                    <img src="images/qr.png" alt="QR" class="qr-code">
+                    <div class="social-share">
+                        <a href="https://api.whatsapp.com/send?text=Hola%20te%20comparto%20mi%20tarjeta%20Digital%20Agendame%21%21%20https://run-site.github.io/mi-sueno/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/whatsapp-share.png" alt="WhatsApp">
+                        </a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://run-site.github.io/mi-sueno/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/facebook-share.png" alt="Facebook">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
